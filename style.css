@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: pink;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1, h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #c2185b;
+}
+
+.form_class{
+    width: 350px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px white;
+}
+
+form{
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444444;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus{
+    outline: none;
+    border-color: #c2185b;
+}
+
+.error{
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c2185b;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ad1457;
+}
+.form_class p {
+    text-align: center;
+    font-size: 13px;
+}
+a {
+    color: #c2185b;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.success {
+    color: green;
+    font-weight: bold;
+}
+
+#loginForm {
+    width: 350px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px white;
+}
+#welcomeMessage {
+    margin-bottom: 10px;
+    color: #c2185b;
+}
+
+#logoutBtn {
+    width: 120px;
+    padding: 10px;
+    background-color: #c2185b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
