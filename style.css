@@ -68,35 +68,35 @@ button{
 button:hover{
     background-color: #ad1457;
 }
-.form_class p {
+.form_class p{
     text-align: center;
     font-size: 13px;
 }
-a {
+a{
     color: #c2185b;
     text-decoration: none;
 }
-a:hover {
+a:hover{
     text-decoration: underline;
 }
-.success {
+.success{
     color: green;
     font-weight: bold;
 }
 
-#loginForm {
+#loginForm{
     width: 350px;
     padding: 30px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 5px 15px white;
 }
-#welcomeMessage {
+#welcomeMessage{
     margin-bottom: 10px;
     color: #c2185b;
 }
 
-#logoutBtn {
+#logoutBtn{
     width: 120px;
     padding: 10px;
     background-color: #c2185b;
